@@ -17,15 +17,25 @@ The goal of this project is to run a lightweight CNN on handwritten digit images
 ## 📁 Project Structure
 
 MNIST_CNN/ 
+
 ├── cnn.cpp # CNN main implementation for HLS 
+
 ├── cnn.hpp # Header file for CNN 
-├── testbench.cpp # Testbench for simulation in HLS 
+
+├── testbench.cpp # Testbench for simulation in HLS
+
 ├── weight.hpp # Weights generated from trained model 
+
 ├── scripts/ 
+
 │ ├── generate_weights.py # Converts model weights to HLS-friendly format 
+
 │ └── train_model.py # Trains CNN model on MNIST 
+
 ├── images/ # MNIST sample images for simulation 
+
 ├── README.md # This file
+
 
 
 ## ⚙️ Requirements
